@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.navbar {
+    background:#a9a9a9;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    text-align: center;
+    margin-right: 2em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('../Images/BG.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.CV {
+    height: 100%;
+    width: 100%;
+   top: 5%;
+   left: 0%;   
+   display: block;
+   position: absolute; 
+   text-align: center;
+}
