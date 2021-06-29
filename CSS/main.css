@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-    background-image: url('../Images/BG.jpg');
+    background-image: url('../Images/BG.jpg');    
     position: relative;
     background-size: cover;
     background-position: center;
@@ -41,8 +41,7 @@ body {
     position: absolute;
     top: 10%;
     transform: translate(-50%, -55%);
-    text-align: center;
-    font-size: 500%;
+    text-align: center;  
 }
 .description {
     left: 50%;
@@ -52,15 +51,13 @@ body {
     text-align: center;
 }
 
-.description h1 {
-    font-size: 4rem;
+.description h3 {   
     color: #161616;
 }
 
 .description b {    
-    color: #fff;
-    font-size: 1.5rem;
-    line-height: 1.5;
+    color: #fff;   
+   
 }
 .Me {
     width: 50%;
@@ -70,10 +67,14 @@ body {
     position: absolute;   
 }
 
-.CVimg{
-    width: 30%;
+.img-fluid{
+    display: block;
+    width: 40%;
+    max-width: 30%;
+    height: auto;
     border: 3px solid #555;
     border-radius: 25px;
+    
 }
 
 
